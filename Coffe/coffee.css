@@ -37,4 +37,20 @@ section p {
     color: #fff;
     padding: 10px 0;
   }
-  
+  .section-padding {
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+.row + .row .col-md-6 {
+    margin-top: 2rem;
+}
+.img-section {
+    width: 100%; /* Ensure images fill their containers */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; /* Prevent images from exceeding their container's width */
+    max-height: 300px; /* Set a maximum height for consistency */
+}
+
+.section img {
+    margin-bottom: 1rem; /* Add some space between images and content */
+}
